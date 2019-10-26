@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/inlets/inlets/cmd"
+	"github.com/disi33/inlets/cmd"
 )
 
 // These values will be injected into these variables at the build time.

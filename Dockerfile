@@ -1,6 +1,6 @@
 FROM golang:1.11-alpine as build
 
-WORKDIR /go/src/github.com/inlets/inlets
+WORKDIR /go/src/github.com/disi33/inlets
 
 COPY .git               .git
 COPY vendor             vendor

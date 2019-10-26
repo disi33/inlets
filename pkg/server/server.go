@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/inlets/inlets/pkg/router"
-	"github.com/inlets/inlets/pkg/transport"
+	"github.com/disi33/inlets/pkg/router"
+	"github.com/disi33/inlets/pkg/transport"
 	"github.com/rancher/remotedialer"
 	"github.com/twinj/uuid"
 	"k8s.io/apimachinery/pkg/util/proxy"

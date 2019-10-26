@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script was adapted from https://github.com/openfaas/cli.openfaas.com/blob/master/get.sh
 
-export OWNER=inlets
+export OWNER=disi33
 export REPO=inlets
 export SUCCESS_CMD="$REPO version"
 export BINLOCATION="/usr/local/bin"
@@ -73,7 +73,7 @@ getPackage() {
         rm $targetFile
     fi
 
-    url=https://github.com/inlets/$REPO/releases/download/$version/$REPO$suffix
+    url=https://github.com/disi33/$REPO/releases/download/$version/$REPO$suffix
     echo "Downloading package $url as $targetFile"
 
     curl -sSLf $url --output $targetFile
